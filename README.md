@@ -7,7 +7,7 @@ A web app for assigning drills, tracking progress, and student-instructor commun
 - **Backend**: Django (Django REST Framework)
 - **Database**: PostgreSQL
 
-## 🚀 Getting Started
+## Getting Started
 ### 1️⃣ Clone the Repo
 ```sh
 git clone https://github.com/your-username/badminton-training.git
