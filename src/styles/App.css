@@ -1,0 +1,17 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(49, 62, 70, 1);
+}
+
+/* Main content should start below the header */
+.main-content {
+  margin-top: 100px;
+  /* Adjust for header */
+  margin-left: 420px;
+  /* Adjust for sidebar */
+  width: calc(100vw - 420px);
+  height: calc(100vh - 100px);
+}

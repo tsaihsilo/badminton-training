@@ -1,0 +1,21 @@
+.Header {
+  width: 100vw;
+  /* Full width */
+  height: 114px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: .5px solid rgba(165, 161, 33, 1);
+}
+
+.greet-user {
+  font-size: 23px;
+  font-weight: 300;
+  color: rgba(243, 227, 8, 1);
+  padding-left: 19px;
+}

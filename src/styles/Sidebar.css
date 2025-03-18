@@ -1,0 +1,91 @@
+.Sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 420px;
+  height: 100vh;
+  background-color: rgba(23, 30, 35, 1);
+  color: rgba(243, 227, 8, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sidebar-logo {
+  width: 100%;
+  font-size: 28px;
+  font-weight: 600;
+  color: rgba(243, 227, 8, 1);
+  padding: 10px 20;
+  padding-left: 123px;
+  margin-top: -10px;
+}
+
+
+/* Sidebar Menu */
+.sidebar-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 55px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 23px;
+  color: rgba(243, 227, 8, 1);
+  opacity: 65%;
+}
+
+/* Sidebar Navigation List */
+.SidebarTabs {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Sidebar Items */
+.SidebarTabs .tab {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding-left: 55px;
+  font-size: 24px;
+  cursor: pointer;
+  gap: 20px;
+  margin-bottom: 23px;
+  position: relative;
+  z-index: 2;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Active Tab Styling */
+.SidebarTabs .tab.active {
+  background-color: rgba(159, 148, 3, 0.2);
+  /* Yellow left border */
+  width: 90%;
+  border-radius: 4px;
+  align-self: center
+}
+
+/* Hover Effect */
+.SidebarTabs .tab:hover {
+  background-color: rgba(159, 148, 3, 0.2);
+  width: 90%;
+  border-radius: 4px;
+  align-self: center
+}
+
+/* Notification Badge */
+.message-badge {
+  width: 9.5px;
+  height: 9.5px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 1px;
+  display: inline-block;
+  position: relative;
+  top: -8px;
+}
